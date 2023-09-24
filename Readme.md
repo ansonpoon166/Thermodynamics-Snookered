@@ -12,20 +12,26 @@ The project consists of three Python scripts:
 - Python 3.7 or later
 - Libraries: numpy, scipy, pylab, matplotlib
 
-## Usage
-
 Before running the scripts, install the required Python libraries:
 
 ```
 pip install -r requirements.txt
 ```
 
-Then, you can run the scripts:
+## Usage
+
+To run just the visual simulation:
+```
+python run.py
+```
+
+Then, you can run the analysis of variables (ie. temperature, pressure and velocity):
 
 ```
 python Task.py
 ```
-When a simulation is run, the frame number is printed to keep track of the progress of the simulation. 
+
+In both script, when a simulation is run, the frame number is printed to keep track of the progress of the simulation. 
 
 
 # Example of the simulation
