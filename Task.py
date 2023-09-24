@@ -15,10 +15,6 @@ from scipy.optimize import curve_fit
 import simulation as S
 
 
-#%%
-"to create a collection of graphs,including the kinetic energy, distance from centre and the velocity distribution"
-sim = S.Simulation(10, 1, 0.05, [0,0], [0,0] , con_R = 10)
-sim.run(1000, False, True, False, False)
 
 #%%
 "Task 11 pressure_area graph"
